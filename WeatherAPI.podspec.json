@@ -1,0 +1,19 @@
+{
+  "name": "WeatherAPI",
+  "version": "2014.12.19",
+  "source": {
+    "git": "http://github.com/looping/weatherapi.git",
+    "tag": "2014.12.19"
+  },
+  "source_files": "WeatherAPI/src/**/*.{h,m}",
+  "resources": "WeatherAPI/src/**/*.{png,jpg,jpeg,wav,xib,strings}",
+  "requires_arc": true,
+  "platforms": {
+    "ios": "6.0"
+  },
+  "dependencies": {
+    "AFNetWorking": [
+
+    ]
+  }
+}
