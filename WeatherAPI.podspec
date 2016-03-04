@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 	s.name = "WeatherAPI"
 	s.version = "2014.12.19"
-	download_url = "http://github.com/looping/" + s.name + ".git"
+	download_url = "https://github.com/looping/" + s.name + ".git"
 	
 	s.source = { :git => download_url.to_s.downcase, :tag => s.version.to_s }
 	s.source_files = s.name + "/src/**/*.{h,m}"
